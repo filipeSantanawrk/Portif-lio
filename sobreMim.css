@@ -1,0 +1,252 @@
+* 
+{
+    margin: 0;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 333;
+}
+
+body{
+background-image: linear-gradient(135deg, #0B0013 0%, #0B0013 3%, white 3%, white 7%, #0B0013 7%, #0B0013 12%, white 12%, white 12.1%, #0B0013 12.1%, #0B0013 100%);
+background-repeat: no-repeat;
+border-image-repeat: none;
+}
+
+header{
+    display: grid;
+    grid-template-columns:50vh 90vh 40vh 20vh;
+    color: white;
+    font-weight: 8vh;
+}
+
+.rotate{
+    transform: rotate(135deg);
+    height: 1px;
+    background-color: red;
+    border: none;   
+}
+.icons{
+height: 9vh;
+margin-left: 5vh;
+margin-top: 4vh;
+}
+.line_header{
+   
+    height: 2px; 
+    background-color: white; 
+    width: 60%; 
+    margin-left: 45vh;
+}
+.botao-contato {
+    background-color: #292848; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 3vh; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+.sobreMim-contato {
+    background-color: #292848; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 3vh; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+.ajustesDivBtn{
+    margin-top: 4vh;
+  
+}
+#ajusteHomeBtn{
+width: 8vh;
+margin-top: 2vh;
+margin-left: 2vh;
+    
+}
+#NoSublime{
+    text-decoration: none;
+}
+#ProjetosJS {
+    font-size: 25px;
+    color: #d8d7d6;
+  margin-left: 88vh;
+  margin-top: 15vh;
+  font-size: 7vh;
+}
+
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 80vh 120vh;
+    max-width: 600px;
+}
+
+.balloon01 {
+    margin-top: 40vh;
+    height: 20vh;
+    font-size: 3vh;
+    background-color: #f0f0f0;
+    color: #0d0c20;
+    padding: 20px;    
+    border-radius: 15px;
+    position: relative;
+}
+
+.balloon02 {
+    margin-top: 80vh;
+    height: 20vh;
+    margin-left: 40vh;
+    font-size: 3vh;
+    background-color: #f0f0f0;
+    color: #0d0c20;
+    padding: 20px;    
+    border-radius: 15px;
+    position: relative;
+}
+
+.balloon03 {
+    height: 20vh;
+    max-width: 70vh;
+    font-size: 23px;
+    background-color: #f0f0f0;
+    color: #0d0c20;
+    padding: 20px;    
+    border-radius: 15px;
+    position: relative;
+}
+
+.balloon .icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: #0d0c20;
+}
+
+.balloon:nth-child(2) .icon {
+    bottom: 10px;
+    right: 15px;
+    font-size: 18px;
+}
+
+.balloon:nth-child(3) .icon {
+    bottom: 15px;
+    right: 20px;
+    font-size: 20px;
+}
+
+.balloon::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 15px;
+    left: -10px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+}
+.svgBASE{
+    height: 7vh;
+    margin-left: 7vh;
+    margin-top: 5vh;
+}
+
+
+
+body {
+    background-color: #ffffff;
+    color: #4b2900;
+}
+
+.contact-form {
+    background-color: #f9f9f9;
+    color: #4b2900;
+}
+
+.contact-form input, .contact-form textarea {
+    border-bottom: 2px solid #4b2900;
+    background-color: transparent;
+    color: #4b2900;
+}
+
+.contact-form button {
+    color: #3a6ea5;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0a001f;
+        color: #ffffff;
+    }
+
+    .contact-form {
+        background-color: #0a001f;
+        color: #ffffff;
+    }
+
+    .contact-form input, .contact-form textarea {
+        border-bottom: 2px solid #ffffff;
+        color: #ffffff;
+    }
+
+    .contact-form button {
+        color: #3a6ea5;
+    }
+
+    .contact-info p {
+        color: #96DB90;
+    }
+}
+.void{
+margin-top: 17vh;
+}
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-image {
+    min-width: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+}
+
+.carousel-button.prev {
+    left: 10px;
+}
+
+.carousel-button.next {
+    right: 10px;
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+

@@ -1,0 +1,121 @@
+* 
+{
+    margin: 0;
+    background-color: #0B0013;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 333;
+    }
+body{
+
+    background-color: black;
+    background: fixed;
+}
+main{
+    background-image: linear-gradient(135deg, #0B0013 0%, #0B0013 3%, white 3%, white 7%, #0B0013 7%, #0B0013 12%, white 12%, white 12.1%, #0B0013 12.1%, #0B0013 100%);
+    background-repeat: no-repeat;
+grid-template-columns: 50vh 30vh 50vh;
+display: grid;
+padding-left: 20vh;
+padding-top: 22vh;
+
+}
+main div h3{
+    
+    color: #96DB90;
+}
+main nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+            
+}
+main nav{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+}
+main nav div h1{
+    font-size: 10vh;
+}
+main nav div img{
+    padding-left: 70vh;
+    padding-bottom: 40vh;
+}
+    
+.BLUEMARINE{
+    color: #6586B9;
+}
+.flexIMG{
+    display: grid;
+    
+
+}
+
+.button {
+    display: inline-block;
+    background-color: #2f2936;
+    color: #8191b4; 
+    padding: 10px 20px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+body {
+    background-color: #ffffff;
+    color: #4b2900;
+}
+
+.contact-form {
+    background-color: #f9f9f9;
+    color: #4b2900;
+}
+
+.contact-form input, .contact-form textarea {
+    border-bottom: 2px solid #4b2900;
+    background-color: transparent;
+    color: #4b2900;
+}
+
+.contact-form button {
+    color: #3a6ea5;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #0a001f;
+        color: #ffffff;
+    }
+
+    .contact-form {
+        background-color: #0a001f;
+        color: #ffffff;
+    }
+
+    .contact-form input, .contact-form textarea {
+        border-bottom: 2px solid #ffffff;
+        color: #ffffff;
+    }
+
+    .contact-form button {
+        color: #3a6ea5;
+    }
+
+    .contact-info p {
+        color: #96DB90;
+    }
+}
+
+
+
+
+
+
+
+
